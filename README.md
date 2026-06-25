@@ -183,8 +183,7 @@ Install:
 pip install pandas numpy seaborn matplotlib plotly scikit-learn imbalanced-learn dash geopy requests openpyxl
 ```
 
-For the AI assistant, a running **LM Studio** instance serving `meta-llama-3.1-8b-instruct` on
-`localhost:1234` is required.
+For the AI assistant, a running **LM Studio** instance serving `meta-llama-3.1-8b-instruct` is required.
 
 ---
 
@@ -200,7 +199,7 @@ For the AI assistant, a running **LM Studio** instance serving `meta-llama-3.1-8
 app.run(debug=True)
 ```
 
-   The dashboard is served by default at `http://127.0.0.1:8050`.
+   
    *(The AI-assistant tab requires the LM Studio endpoint to be active.)*
 
 ---
