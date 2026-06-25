@@ -43,27 +43,6 @@ Informed Decision Making (prioritisation & safety)
 
 ---
 
-## Repository structure
-
-```
-.
-├── DANA_visualization.ipynb          # Main notebook: preprocessing, modeling, dashboard
-├── datos_DANA.xlsx                   # Raw input dataset (not included)
-├── dana_valencia_normalizzato.xlsx   # Cleaned dataset (generated)
-├── dana_valencia_normalizzato.csv    # Cleaned dataset, CSV export (generated)
-├── dana_valencia_normalizzato.pkl    # Cleaned dataset, pickle export (generated)
-├── street_coords_norm.csv            # Geocoding cache (generated)
-└── README.md
-```
-
-The notebook is organised into three logical sections:
-
-1. **Data Preparation and Understanding** — profiling, cleaning, feature engineering, and EDA.
-2. **Classification** — predictive modelling of the building risk class.
-3. **Dashboard and LLM** — interactive Dash application with an AI assistant.
-
----
-
 ## 1. Data preparation and feature engineering
 
 The raw dataset is cleaned and reduced to an analytically meaningful structure.
